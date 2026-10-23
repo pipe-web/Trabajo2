@@ -3,7 +3,7 @@ import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { EquipoModule } from './equipo/equipo.module';
+import { EquiposModule } from './equipo/equipo.module';
 
 @Module({
   imports: [
@@ -21,7 +21,7 @@ import { EquipoModule } from './equipo/equipo.module';
       autoLoadEntities: true,
       synchronize: true, // Crea/actualiza las tablas automáticamente en desarrollo
     }),
-    EquipoModule,
+    EquiposModule,
   ],
   controllers: [AppController],
   providers: [AppService],
