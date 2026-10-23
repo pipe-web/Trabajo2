@@ -3,10 +3,8 @@
 Evaluación N.º 2 · Lenguaje de Programación Web II
 
  Información del Estudiante
-- Nombre: [Tu Nombre Completo Aquí]
+- Nombre: Felipe Jara
 - Asignatura: Lenguaje de Programación Web II
-- Institución: Instituto Profesional Virgen de la Candelaria (IPVG) - Sede Chillán
-- Año: 2026
 
 
 
